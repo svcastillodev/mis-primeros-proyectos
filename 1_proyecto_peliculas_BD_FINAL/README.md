@@ -1,51 +1,40 @@
-Sistema de gestión de películas 🎬
+# Sistema de gestión de películas 🎬
 
-Descripción
+## Descripción
 
 Este proyecto consiste en un sistema desarrollado en Python que permite gestionar información de películas mediante un menú en consola.
 
 Fue realizado como parte de mis prácticas de programación para fortalecer mis conocimientos en el desarrollo de software.
 
-Funcionalidades
+## Funcionalidades
 
-Agregar películas.
+- Agregar películas.
+- Consultar las películas registradas.
+- Buscar películas.
+- Modificar la información de las películas.
+- Eliminar películas.
 
-Consultar las películas registradas.
+## Tecnologías utilizadas
 
-Buscar películas.
+- Python
+- Programación modular
+- Git y GitHub
 
-Modificar la información de las películas.
+## Estructura del proyecto
 
-Eliminar películas.
+- `main.py`: archivo principal del programa.
+- `funciones.py`: contiene funciones para gestionar las operaciones del sistema.
+- `peliculas/`: carpeta que contiene los módulos relacionados con las películas.
+  - `crud.py`: operaciones para gestionar los registros.
+  - `peliculas.py`: módulo relacionado con las películas.
+- `.gitignore`: indica los archivos que Git debe ignorar.
 
-Tecnologías utilizadas
+## Autora
 
-Python
-
-Programación modular
-
-Git y GitHub
-
-Estructura del proyecto
-
-main.py: archivo principal del programa.
-
-funciones.py: contiene funciones para gestionar las operaciones del sistema.
-
-peliculas/: carpeta que contiene los módulos relacionados con las películas.
-
-crud.py: operaciones para gestionar los registros.
-
-peliculas.py: módulo relacionado con las películas.
-
-.gitignore: indica los archivos que Git debe ignorar.
-
-Autora
-
-Sonia Vanessa Castillo Domínguez
+**Sonia Vanessa Castillo Domínguez**
 
 Estudiante de Desarrollo de Software Multiplataforma en la Universidad Tecnológica de Durango (UTD).
 
-Objetivo
+## Objetivo
 
 Fortalecer mis habilidades de programación y construir un portafolio de proyectos que demuestre mi aprendizaje en el desarrollo de software.
